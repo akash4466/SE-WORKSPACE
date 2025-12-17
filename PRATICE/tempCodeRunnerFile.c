@@ -1,5 +1,1 @@
-
-    {
-        printf("%d*%d=%d\n",n,i,(i*n));
-    }
-    
+num=num/10;

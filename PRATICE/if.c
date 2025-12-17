@@ -2,29 +2,29 @@
 #include<conio.h>
 void main()
 {
-    int a;
-    printf("enter the value of a:");
-    scanf("%d",&a);
-
-    if(a>=70)
+    int mark;
+    printf("enter the value of mark:");
+    scanf("%d",&mark);
+    if(mark<=90)
     {
-        printf("A");
+        printf("1st");
     }
-    if(a>=60)
+    else if (mark<=80)
     {
-        printf("B");
+        printf("2nd");
     }
-    if(a>=50)
+    else if (mark<=70)
     {
-        printf("C");
+        printf("3nd");
     }
-    if(a>=40)
+    else if (mark<=60)
     {
-        printf("D");
+        printf("4nd");
     }
-    else
-    {
-        printf("E");
+    else{
+        printf("not good");
     }
     getch();
+    
+
 }

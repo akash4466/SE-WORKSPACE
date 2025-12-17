@@ -1,56 +1,36 @@
 #include<stdio.h>
 #include<conio.h>
+
 void main()
 {
-    int a;
-     
-    
-    printf("enter your order:");
-    scanf("%d",&a);
+    int food,bill;
+    printf("enter food number=");
+    scanf("%d",&food);
 
-    switch (a)
+    switch (food)
     {
-        case 1:
-        printf("\n pizza");
-        break;
-        case 2:
-        printf("\n pani-puri");
-        break;
-        case 3:
-        printf("\n ice-cream");
-        break;
-        default:printf("not-avalable");
-        if (a==1)
-        {
-            printf("\n bills is 10$");
-        }
-        if (a==2)
-        {
-            printf("\n bills is 20$");
-        }
-
-        if (a==3)
-        {
-            printf("\n bills is 30$");
-        }
-
-
-        
-
-
-        
-
-
-        
-
-    
-    
+    case 1:
+    bill+=100;
+    printf("pizza %d",bill);
+    break;
+    case 2:
+    bill+=70;
+    printf("ice-tea %d",bill;
+    break;
+    case 3:
+    bill+=80;
+    printf("non-veg %d",bill);
+    break;
+    case 4:
+    bill+=50;
+    printf("coffe %d",bill);
+    break;
+    case 5:
+    bill+=10;
+    printf("cold-drink %d",bill);
+    break;
+    default:printf("not valid");
     }
     getch();
-
-    
-
-    
-
 
 }
